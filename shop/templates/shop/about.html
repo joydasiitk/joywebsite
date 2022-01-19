@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<!---This is for importing bootstrap and the CSS File--->
+
+<head>
+  <title>Joy</title>
+  <link rel="stylesheet" href="templatestyle.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Dancing Script' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+  <!---Nav Bar and Header--->
+
+{% load static %}
+    <!---Header--->
+    <div class="container-fluid topbar">
+      <!img src="blank-person-male.png" alt="profilepic" class="rounded-circle float-right holder"><!/img>
+
+    </div>
+
+  <nav class="navbar navbar-expand-lg navbar-light float-right border-bottom box-shadow" style="background-color: #829993">
+    <div class="container-fluid menu" id="openMenu">
+      <div class="row">
+        <div class="col-2 text-center">
+          <a href="/shop"><i class= "fa fa-user fa-2x icon icon-1" aria-hidden="true"></i></a>
+          <h5 class="txt txt-1">Research Project</h5>
+        </div>
+
+        <div class="col-2 text-center">
+          <a href="/shop/about"><i class="fa fa-graduation-cap fa-2x icon icon-2"  aria-hidden="true"></i></a>
+          <h5 class="txt txt-2">Profile</h5>
+        </div>
+
+        <div class="col-2 text-center">
+          <a href="#"><i class="fa fa-certificate fa-2x icon icon-3" aria-hidden="true"></i></a>
+          <h5 class="txt txt-3">Certificates</h5>
+        </div>
+
+        <div class="col-2 text-center">
+          <a href="#"><i class="fa fa-book fa-2x icon icon-4" aria-hidden="true"></i></a>
+          <h5 class="txt txt-4">Teaching Activities</h5>
+        </div>
+
+        <div class="col-2 text-center">
+          <a href="#"> <i class="fa fa-envelope fa-2x icon icon-5" aria-hidden="true"></i></a>
+          <h5 class="txt txt-6">Messages</h5>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+ <div style="background-color: #f0efc9 ;background-size: cover; height:1000px; padding-top: 80px; text-align: left;">
+   <div id="header">
+      <h1 style="padding-left: 50px; padding-bottom: 50px; padding-bottom: 50px; padding-top: 50px">Decision Dynamics</h1>
+         <div id="header-content" style="padding-left: 50px;"> And in the last place, where this might not be the case, they would be of long standing,
+           would have taken deep root, and would not easily be extirpated. The scheme of revising the constitution, in order
+           to correct recent breaches of it, as well as for other purposes, has been actually tried in one of the States.
+         </div>
+   </div>
+ </div>
+
+
+</body>
+
+</html>
